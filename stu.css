@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#back{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(156, 188, 236);
+}
+#card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+    
+    height: 30%;
+    width: 15%;
+    background-color: #fff;
+}
+#cardt{
+    border-radius: 10px 10px 0 0;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#cardb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(68, 111, 239);
+    border-radius: 0 0 10px 10px;
+    box-shadow: .5px 1px 7px 3px  rgba(0, 0, 0, 0.375);
+}
+#cardb i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#cardvalue{
+    font-size:700%;
+    font-weight: 100;
+    color: rgb(68, 111, 239);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
